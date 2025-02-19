@@ -1,0 +1,92 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+
+#nuevaT {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  width: 25%;
+  padding: 10px;
+  margin: 0 10px 0 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: solid rgb(0, 0, 0) 1px;
+  border-radius: 5px;
+}
+
+#boton {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#boton:hover {
+  transform: scale(1.05);
+  background-color: rgb(41, 41, 41);
+}
+
+#boton:active {
+  background-color: rgb(121, 121, 121);
+}
+
+.botonEliminar {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  font-size: large;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.botonEliminar:hover {
+  transform: scale(1.05);
+  background-color: rgb(167, 0, 0);
+}
+
+.botonEliminar:active {
+  background-color: rgb(255, 66, 66);
+}
+
+#tareas{
+  display: absolute;
+  margin: 0 300px;
+}
+
+ol{
+  padding: 0;
+  list-style-type: none;
+}
+
+li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  padding: 10px;
+  border-bottom: 1px solid rgb(199, 199, 199);
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+li:hover{
+  transform: scale(1.05);
+  background-color: rgb(245, 245, 245);
+}
+
